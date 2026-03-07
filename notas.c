@@ -24,5 +24,7 @@ int main()
         printf("recuperacao!");
     
     }
+    system("pause");
     return 0;
+
 }

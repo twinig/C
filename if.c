@@ -3,14 +3,18 @@
 
 int main()
 {
+
+    //definição de variavel x
     float x;
 
+    //definindo o valor da variavel x
     printf("Digite um numero:");
     scanf("%f", &x);
     //estrutura de decisão
     //estrutura de decisão logica
     //estrutura logica
 
+    //definição do if de x
     if(x>0){
         printf("X e menor que 0 \n");
     }

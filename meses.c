@@ -3,7 +3,7 @@
 
 int main(){
     int x;
-
+    //definindo a variavel e o valor da variavel
     printf("digite o valor do  mes:");
     scanf("%i", &x);
 

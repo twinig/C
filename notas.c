@@ -3,14 +3,17 @@
 
 int main()
 {
+    //definindo as variaveis
     float x, y;
     
     printf("Digite a primeira nota: ");
     scanf("%f", &x);
     printf("Digite a segunda nota: ");
     scanf("%f", &y);
+    //definindo o valor das variaveis
 
     float media = (x+y)/2;
+    //calculo da media
 
     if(media>=7){
         printf("APROVADO!");
@@ -19,12 +22,12 @@ int main()
         printf("REPROVADO!");
     }
 
-    if(media >=4 && media<7){
-
-        printf("recuperacao!");
+    //if (media>=4 && media<7){ }
     
+    if(media >= 4){
+        if(media<7){
+            printf("recuperacao!");
+        }
     }
-    system("pause");
     return 0;
-
 }

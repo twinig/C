@@ -3,8 +3,16 @@
 
 int main()
 {
+    //definição das variaveis
+    
     float nm1, nm2, nm3, nm4, media;
+    //float nm1
+    //float nm2
+    //float nm3
+    //float nm4
+    //float media
 
+    //definição do valor das variaveis
     printf("Digite o primeiro numero: ");
     scanf("%f", &nm1);
     printf("Digite o segundo numero: ");
@@ -14,7 +22,9 @@ int main()
     printf("Digite o quarto numero: ");
     scanf("%f", &nm4);
 
+    //calculo da media das variaveis
     media=(nm1+nm2+nm3+nm4)/4;
-    printf("A media dos numeros é %.3f", media);
+    //imprimindo a media
+    printf("A media dos numeros e %.3f", media);
     return 0;
 }
